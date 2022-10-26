@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS with JS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/css-variables.css" />
+  </head>
+  <div class="abx"></div>
+  <body>
+    <h2>Update CSS Variables wits <span class="h1">JS</span></h2>
+    <ul class="controls js-controls">
+      <li>
+        <label for="spasing">Spasing:</label
+        ><input name="spasing" type="range" min="10" max="200" value="10" data-sizing="px" />
+      </li>
+
+      <li>
+        <label for="blur">Blur:</label
+        ><input name="blur" type="range" min="0" max="25" value="10" data-sizing="px" />
+      </li>
+
+      <li>
+        <label for="base">Base color:</label><input name="base" type="color" value="#8a2be2" />
+      </li>
+    </ul>
+    <div class="thumb">
+      <img
+        src="https://images.pexels.com/photos/1493088/pexels-photo-1493088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        alt="town"
+      />
+    </div>
+
+    <script src="./js/css-variables.js"></script>
+  </body>
+</html>
